@@ -1,0 +1,15 @@
+apiVersion: v1
+data:
+  APP_COLOR: bleu
+  APP_ENV: dev
+  LOG_LEVEL: info
+kind: ConfigMap
+metadata:
+  annotations:
+    kubectl.kubernetes.io/last-applied-configuration: |
+      {"apiVersion":"v1","data":{"APP_COLOR":"bleu","APP_ENV":"dev","LOG_LEVEL":"info"},"kind":"ConfigMap","metadata":{"annotations":{},"name":"app-config","namespace":"tp-k8s"}}
+  creationTimestamp: "2026-10-18T09:21:22Z"
+  name: app-config
+  namespace: tp-k8s
+  resourceVersion: "56424"
+  uid: b4b5c8a2-329f-4909-8abc-9f183cf63ed0
